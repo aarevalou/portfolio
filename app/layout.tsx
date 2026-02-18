@@ -1,32 +1,4 @@
-import type { Metadata } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-
-const _geist = Geist({ subsets: ["latin"] });
-const _geistMono = Geist_Mono({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: 'Dev Portfolio',
-  description: 'Portafolio de desarrollador - React & TypeScript',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
-}
 
 export default function RootLayout({
   children,
@@ -35,9 +7,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
+      <head>
+        <title>Dev Portfolio</title>
+        <meta name="description" content="Portafolio de desarrollador - React & TypeScript" />
+      </head>
       <body className="font-sans antialiased selection:bg-primary/20 selection:text-primary">
         {children}
-        <Analytics />
       </body>
     </html>
   )
