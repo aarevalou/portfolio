@@ -1,16 +1,17 @@
+import { ArrowDown } from "lucide-react"
+
 export function Hero() {
   return (
     <section className="flex min-h-screen flex-col items-center justify-center px-6 pt-20">
       <div className="mx-auto max-w-3xl text-center">
         <p className="mb-4 text-sm font-medium tracking-widest uppercase text-primary">
-          Frontend Developer
+          Future Developer
         </p>
         <h1 className="text-balance text-4xl font-bold leading-tight tracking-tight text-foreground md:text-6xl lg:text-7xl">
-          Tu Nombre Aqui
+          Alejandro Arévalo C.
         </h1>
         <p className="mx-auto mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground">
-          Desarrollo interfaces modernas y accesibles con React y TypeScript.
-          Apasionado por el codigo limpio y las buenas practicas.
+          Apasionado por el diseño UX/UI, el desarrollo frontend y mobile, enfocado en crear experiencias digitales modernas y funcionales.
         </p>
         <div className="mt-10 flex items-center justify-center gap-4">
           <a
@@ -32,10 +33,7 @@ export function Hero() {
         className="mt-20 animate-bounce text-muted-foreground transition-colors hover:text-primary"
         aria-label="Scroll down"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M12 5v14" />
-          <path d="m19 12-7 7-7-7" />
-        </svg>
+        <ArrowDown className="h-5 w-5" />
       </a>
     </section>
   )

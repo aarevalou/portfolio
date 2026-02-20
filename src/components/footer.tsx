@@ -3,10 +3,10 @@ export function Footer() {
     <footer className="border-t border-border px-6 py-8">
       <div className="mx-auto flex max-w-3xl flex-col items-center justify-between gap-4 md:flex-row">
         <p className="text-sm text-muted-foreground">
-          {"Hecho con React & TypeScript"}
+          {"Portafolio realizado con React & TypeScript"}
         </p>
         <p className="text-sm text-muted-foreground">
-          {`© ${new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.`}
+          {"a.arevalou@gmail.com"}
         </p>
       </div>
     </footer>

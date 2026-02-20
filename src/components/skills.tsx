@@ -1,12 +1,12 @@
 const skills = [
-  { name: "React", level: "Avanzado" },
-  { name: "TypeScript", level: "Avanzado" },
-  { name: "JavaScript", level: "Avanzado" },
-  { name: "HTML & CSS", level: "Avanzado" },
-  { name: "Tailwind CSS", level: "Intermedio" },
-  { name: "Node.js", level: "Intermedio" },
-  { name: "Git", level: "Intermedio" },
-  { name: "REST APIs", level: "Intermedio" },
+  { name: "React", level: "Experimentado" },
+  { name: "TypeScript", level: "Experimentado" },
+  { name: "JavaScript", level: "Intermedio" },
+  { name: "HTML & CSS", level: "Intermedio" },
+  { name: "Flutter", level: "Principiante" },
+  { name: "Next.js", level: "Principiante" },
+  { name: "Node.js", level: "Experimentado" },
+  { name: "Git", level: "Experimentado" },
 ]
 
 export function Skills() {
