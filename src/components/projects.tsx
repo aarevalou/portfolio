@@ -7,7 +7,7 @@ const projects = [
       "Diseño UX/UI de una aplicación informativa sobre la comunidad de estilo de música Hardstyle Dance Music (HDM).",
     tags: ["UX/UI", "Figma", "Mobile"],
     live: "https://www.figma.com/design/OBBzjj5MOnSoGBpBL8blLL/Mock-up-ET2?node-id=0-1&t=1nUwoq3MbjrcKXMK-1",
-    image: "static/projects/hardmony.png",
+    image: "/projects/hardmony.png",
   },
   {
     title: "Intranet UFRO",
@@ -15,7 +15,7 @@ const projects = [
       "Diseño UX/UI de una aplicación de Intranet para la Universidad de la Frontera.",
     tags: ["UX/UI", "Figma", "Mobile"],
     live: "https://www.figma.com/design/mduCljEQshk0zsT9Dk7ZSG/Untitled?node-id=2-16&p=f",
-    image: "static/projects/intranet.png",
+    image: "/projects/intranet.png",
   },
   {
     title: "Hardtech",
@@ -23,7 +23,7 @@ const projects = [
       "Diseño UX/UI de una página Web de venta de artículos de Hardware",
     tags: ["UX/UI", "Figma", "Mobile"],
     live: "https://www.figma.com/design/JZDBFe5Jmd20vJ1nCkKUj8/Mockup-HardTech?node-id=0-1&p=f",
-    image: "static/projects/hardtech.png",
+    image: "/projects/hardtech.png",
   },
 ];
 
